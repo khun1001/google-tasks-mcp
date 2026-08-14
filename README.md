@@ -40,8 +40,6 @@ npm run build
 
 **2️⃣ 放入 `credentials.json`**
 
-二選一:
-- **公司同仁**:直接跟 Jax 要 `credentials.json`,放進資料夾根目錄即可。
 - **自己建**:照本文件下方〈一次性設定 → 1. 建立 GCP OAuth 憑證〉建立一組 **Desktop app** 憑證,下載後改名 `credentials.json` 放進資料夾。
 
 **3️⃣ 用「你自己的」Google 帳號授權一次**
@@ -110,11 +108,10 @@ claude mcp list
    npm run auth
    ```
 
-   `npm run auth` 會開瀏覽器 → 用 jax.su@cloudwave.com.tw 登入 → 同意授權。
+   `npm run auth` 會開瀏覽器 → 用公司帳號登入 → 同意授權。
    成功後會產生 `token.json`(存 refresh token,之後不用再登入)。
 
    > ⚠️ 若 `npm run auth` 出現 TLS/憑證錯誤,先暫時關閉 Avast 的 HTTPS 掃描再重試
-   > (與 gcloud 那個雷相同)。
 
 ### 3. 把 MCP server 加進 Claude Code
 
