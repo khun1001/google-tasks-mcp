@@ -90,7 +90,7 @@ claude mcp list
 1. 開 https://console.cloud.google.com/ ,選一個專案(或新建)。
 2. **啟用 API**:APIs & Services → Library → 搜尋「Google Tasks API」→ Enable。
 3. **OAuth 同意畫面**:APIs & Services → OAuth consent screen
-   - User type 選 **Internal**(cloudwave.com.tw Workspace 帳號可用,最簡單);
+   - User type 選 **Internal**(Workspace 帳號可用,最簡單);
      若不能選 Internal 就選 **External**,並在 Test users 加入自己的 email。
    - 填 App name、support email、developer email 即可。
 4. **建立憑證**:APIs & Services → Credentials → Create Credentials → OAuth client ID
