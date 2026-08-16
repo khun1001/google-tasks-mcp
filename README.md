@@ -123,6 +123,8 @@ claude mcp add google-tasks -s user -- node "C:\Users\w7426\Desktop\claude code\
 
 然後**重開 Claude Code**,下一個 session 就會出現 `google-tasks` 的工具。
 
+[![M8ven Verified](https://m8ven.ai/badge/mcp/khun1001-google-tasks-mcp-8jlk2q?variant=verified)](https://m8ven.ai/mcp/khun1001-google-tasks-mcp-8jlk2q)
+
 ## 重新授權
 
 刪掉 `token.json` 再跑一次 `npm run auth` 即可。
